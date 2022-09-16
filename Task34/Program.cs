@@ -4,9 +4,9 @@ int[] array = new int[100];
 FillArray(array);
 PrintArray(array); 
 Console.WriteLine();
-Console.WriteLine($"Количество чётных чисел в массиве {FindPositive(array)}");
+Console.WriteLine($"Количество чётных чисел в массиве {FindEven(array)}");
 
-int FindPositive(int[] array)
+int FindEven(int[] array)
 {
     int count = 0;
     int i;
